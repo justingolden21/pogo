@@ -1,14 +1,14 @@
 <script>
-	import { session } from '$app/stores';
+	import pokedex from '../data/pokedex.json';
+
+	let id = 0;
+	$: pokemon = pokedex[id];
 </script>
 
 <svelte:head>
-	<title>{$session.languageDictionary.pageNames.page1}</title>
+	<title>{pokemon.name}</title>
 </svelte:head>
 
-<h1>{$session.languageDictionary.pageNames.page1}</h1>
-<p class="mt-4 text-left">
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas quos <a href="/"
-		>provident voluptatibus</a
-	> dolores nostrum iusto amet consequatur libero itaque?
-</p>
+<p class="mt-4 text-left">#{id}</p>
+<h1>{pokemon.name}</h1>
+<button on:click={() => (id = id + 1)}>Next</button>
