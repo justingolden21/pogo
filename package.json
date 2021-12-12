@@ -1,7 +1,7 @@
 {
-	"name": "APP NAME",
+	"name": "Pokemon Go Guide",
 	"version": "1.0.0",
-	"description": "APP DESCRIPTION",
+	"description": "A reference guide and pokedex for Pokemon Go",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -11,11 +11,19 @@
 		"generate-assets": "pwa-asset-generator static/img/icons/icon.svg static/img/icons --favicon --mstile --icon-only --opaque true"
 	},
 	"keywords": [
-		"KEYWORD 1",
-		"KEYWORD 2",
-		"KEYWORD 3"
+		"pokemon go guide",
+		"pokemon go reference",
+		"pokemon go pokedex",
+		"pokemon go reference guide",
+		"pokemon go offline pokedex",
+		"pokemon go articles",
+		"pokemon go",
+		"pogo",
+		"pogo guide",
+		"pogo reference",
+		"pogo pokedex"
 	],
-	"author": "AUTHOR NAME",
+	"author": "Justin Golden",
 	"license": "MIT",
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.32",
