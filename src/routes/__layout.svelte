@@ -28,8 +28,8 @@
 </script>
 
 <svelte:head>
-	<meta name="apple-mobile-web-app-status-bar" content="#DC2626" />
-	<meta name="theme-color" content="#DC2626" />
+	<meta name="apple-mobile-web-app-status-bar" content="#27272A" />
+	<meta name="theme-color" content="#27272A" />
 </svelte:head>
 
 <div class="text-center flex min-h-screen">
