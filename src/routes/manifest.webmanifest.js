@@ -7,8 +7,8 @@ export async function get({ locals }) {
 			description: locals.languageDictionary.appDescription,
 			start_url: '/',
 			display: 'standalone',
-			background_color: '#FFFFFF',
-			theme_color: '#FFFFFF',
+			background_color: '#DC2626',
+			theme_color: '#DC2626',
 			orientation: 'portrait-primary',
 			icons: [
 				{

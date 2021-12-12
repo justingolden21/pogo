@@ -8,8 +8,6 @@ A svelte kit boilerplate using tailwind css with eslint / prettier / airbnb form
 
 `npm i`
 
-Replace #FFFFFF with your app's primary color
-
 Replace static/img/icons/icon.svg with your icon, delete all other icons, then run `npm run generate-assets`
 
 `npm run dev`
@@ -86,3 +84,9 @@ Development: `npm run dev`
 Build: `npm run build`
 
 Preview: `npm run preview`
+
+### Info
+
+Primary red: #DC2626 (red-600)
+
+Primary gray: #27272A (gray-800)
