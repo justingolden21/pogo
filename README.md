@@ -57,18 +57,6 @@ Set up VS code to auto format on save
 }
 ```
 
-### Testing This Template
-
-Test by setting up as mentioned above
-
-Test `npm run build` then `npm run preview`
-
-Test deployment to Netlify
-
-Test language translation implementation
-
-Test PWA, auto update, and offline abilities
-
 ### Development
 
 First time setup: `npm i`
@@ -80,6 +68,8 @@ Development: `npm run dev`
 Build: `npm run build`
 
 Preview: `npm run preview`
+
+Note that `build` and `preview` must be run once before having service worker working for `dev`
 
 ### Info
 
