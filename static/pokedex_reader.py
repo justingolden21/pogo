@@ -34,3 +34,15 @@ with open('pokedex.json', 'w') as f:
 
 with open("pokedex_pretty.json", "w") as f:
     json.dump(final_data, f, indent=2)
+
+# ========
+
+url = "https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-json-pokedex/master/output/move.json"
+response = urlopen(url)
+
+json_data = json.loads(response.read())
+with open('moves.json', 'w') as f:
+    json.dump(json_data, f, separators=(',', ':'))
+
+with open("moves_pretty.json", "w") as f:
+    json.dump(json_data, f, indent=2)
