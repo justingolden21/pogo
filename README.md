@@ -8,10 +8,6 @@ A svelte kit boilerplate using tailwind css with eslint / prettier / airbnb form
 
 `npm i`
 
-Replace static/img/icons/icon.svg with your icon, delete all other icons, then run `npm run generate-assets`
-
-`npm run dev`
-
 ##### Styling:
 
 VS Code Extensions:
