@@ -1,7 +1,9 @@
 <script>
 	import pokedex from '../data/pokedex.json';
 
-	let id = 1;
+	import { settings } from '../components/settings';
+
+	$: id = $settings.pokemonID;
 	$: pokemon = pokedex.filter((p) => p.dex === id)[0];
 </script>
 
@@ -19,5 +21,5 @@
 
 <p class="mt-4 text-left">#{id}</p>
 <h1>{pokemon.name}</h1>
-<button on:click={() => id--}>Prev</button>
-<button on:click={() => id++}>Next</button>
+<button on:click={() => $settings.pokemonID--}>Prev</button>
+<button on:click={() => $settings.pokemonID++}>Next</button>
