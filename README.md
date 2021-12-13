@@ -76,3 +76,5 @@ Note that `build` and `preview` must be run once before having service worker wo
 Primary red: #DC2626 (red-600)
 
 Primary gray: #27272A (gray-800)
+
+Note that if a bug appears and doesn't go away even after deleting build folders and node modules etc, it may be in local storage and can be reset by `localStorage.clear()` in the console
